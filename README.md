@@ -41,4 +41,33 @@
   ```bash
   cargo run -- body poem.txt
   ```
+  ## Enable Case-Insensitive Search
+  Set the CASE_INSENSITIVE environment variable before running:
+
+  ``bash
+  CASE_INSENSITIVE=1 cargo run -- "to" poem.txt
+  ```
+  Or on Windows (PowerShell):
+  ```bash
+  $env:CASE_INSENSITIVE=1
+  cargo run -- "to" poem.txt
+  ```
+  ## Running Tests
+  ```bash
+  cargo test
+  ```
+  ## Concepts Demonstrated
+  Ownership and borrowing
+
+- String slices and lifetimes
+- Structs and enums
+- File reading with std::fs
+- Pattern matching with match
+- Error propagation using Result
+- Unit testing with #[test]
+
+## Contributions
+Contributions are welcome! Please fork the repository and open a pull request.
+Thank you!
+
 
