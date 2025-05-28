@@ -28,7 +28,7 @@
   ## Clone the repository
 
   ```bash
-  git clone https://github.com/your-username/minigrep.git
+  git clone https://github.com/jolah1/minigrep.git
   cd minigrep
   ```
   ## Build the Project
